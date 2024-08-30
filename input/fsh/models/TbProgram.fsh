@@ -1,5 +1,4 @@
 Logical: TbProgram
-Id: tb-program
 Title: "TB Program"
 Parent: BackboneElement
 Description: "This is the logical model for the DHIS2 TB Program."
@@ -29,6 +28,9 @@ Description: "This is the logical model for the DHIS2 TB Program."
 * longitude 0..1 string "Longitude"
 * uniqueId 0..1 string "Unique identifier"
 * labMonitoring 0..* LabMonitoring "Lab monitoring"
+* TbVisit 0..1 TbVisit "TB Visit"
+* sputumSmearMicroscopyTest 0..* SputumSmearMicroscopyTest "Sputum smear microscopy test"
+
 
 // Value set bindings
 * gender from GenderVS (required)
