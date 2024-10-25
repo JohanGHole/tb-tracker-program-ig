@@ -1,0 +1,20 @@
+CodeSystem: Dhis2DataElements
+Title: "DHIS2 Data Element CodeSystem"
+Description: "This code system defines the data elements used in the program stages."
+* ^meta.profile[+] = "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"
+* ^meta.profile[+] = "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"
+* ^experimental = true
+* ^caseSensitive = true
+* #Vk1tzSQxvOR "TB lab CD4"
+* #fCXKBdc27Bt "TB lab Creatinine"
+* #lJTx9EZ1dk1 "Tb lab Glucose"
+* #fTZFU8cWvb3 "TB lab Hemoglobin"
+* #D7m8vpzxHDJ "TB Disease Classification"
+* #HmkXnHJxcD1 "TB Case Definition"
+* #lpHeSOA8GUV "TB treatment card"
+* #vAzDOljIN1o "TB Previous use of second-line drugs"
+* #zJbnrm3kUAk "TB Started on ART"
+* #P6hgV2tSIvi "TB Started on CPT"
+* #U5ubm6PPYrM "TB HIV testing done"
+* #yLIPuJHRgey "TB smear microscopy number of specimen"
+* #zocHNQIQBIN "TB smear microscopy test outcome"
