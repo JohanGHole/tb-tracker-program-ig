@@ -17,7 +17,7 @@ Description: "This is the logical model for the DHIS2 TB Program."
   * ^code[+] = Dhis2TrackedEntityAttributes#zDhUuAYrxNC
 * gender 1..1 code "Gender"
   * ^code[+] = Dhis2TrackedEntityAttributes#cejWyOfXge6
-* TbIdentifier 0..1 string "TB identifier"
+* tbIdentifier 0..1 string "TB identifier"
   * ^code[+] = Dhis2TrackedEntityAttributes#xs8A6tQJY0s
 * age 0..1 Age "age"
   * ^code[+] = Dhis2TrackedEntityAttributes#spFvx9FndA4
@@ -27,7 +27,7 @@ Description: "This is the logical model for the DHIS2 TB Program."
   * ^code[+] = Dhis2TrackedEntityAttributes#FO4sWYJ64LQ
 * state 0..1 string "State"
   * ^code[+] = Dhis2TrackedEntityAttributes#GUOBQt5K2WI
-* ZipCode 0..1 integer "Zip code"
+* zipCode 0..1 integer "Zip code"
   * ^code[+] = Dhis2TrackedEntityAttributes#n9nUvfpTsxQ
 * email 0..1 string "Email address"
   * ^code[+] = Dhis2TrackedEntityAttributes#NDXw0cluzSw
@@ -43,7 +43,7 @@ Description: "This is the logical model for the DHIS2 TB Program."
   * ^code[+] = Dhis2TrackedEntityAttributes#A4xFHyieXys
 * company 0..1 string "Company"
   * ^code[+] = Dhis2TrackedEntityAttributes#kyIzQsj96BD
-* TbNumber 0..1 string "TB number"
+* tbNumber 0..1 string "TB number"
   * ^code[+] = Dhis2TrackedEntityAttributes#ruQQnf6rswq
 * vehicle 0..1 string "Vehicle"
   * ^code[+] = Dhis2TrackedEntityAttributes#VHfUeXpawmE
@@ -62,7 +62,7 @@ Description: "This is the logical model for the DHIS2 TB Program."
 
 // Logical Models for Program Stages
 * labMonitoring 0..* LabMonitoring "Lab monitoring"
-* TbVisit 0..1 TbVisit "TB Visit"
+* tbVisit 0..1 TbVisit "TB Visit"
 * sputumSmearMicroscopyTest 0..* SputumSmearMicroscopyTest "Sputum smear microscopy test"
 
 

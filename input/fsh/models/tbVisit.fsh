@@ -16,6 +16,7 @@ Description: "Routine TB visit."
 * tbStartedOnCPT 0..1 boolean "TB started on CPT?"
   * ^code[+] = Dhis2DataElements#P6hgV2tSIvi
 * tbHivTestingDone 0..1 boolean "TB HIV testing done"
+  * ^code[+] = Dhis2DataElements#U5ubm6PPYrM
 
 
 // Value set bindings
